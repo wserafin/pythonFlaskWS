@@ -7,6 +7,11 @@ I did using Miguel Grinberg's blog post below:
   Available at: http://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
   Accessed: 08 September 2015
 
-98% of the code came from Miguel's post and is reproduced
-here for learning purposes only (it's my first Python code
-and first GitHub repository).
+
+Docker build: $  docker build -t phoneflask ./
+
+Local docker run: $ docker run -p 5000:5000 phoneflask
+
+Note -d to run detach container in background
+
+
